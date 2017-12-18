@@ -1,4 +1,42 @@
 {
   "students": ["christo", "erwin", "jordan", "kevin", "lorenzo", "marina", "rebecca", "sofia", "tish"],
-  "projects": ["biography", "blog", "portfolio", "canvas", "clicker", "interactive", "jukebox", "final"]
+  "projects": ["biography", "blog", "portfolio", "canvas", "clicker", "interactive", "jukebox", "final"],
+  "finals": {
+    "christo": {
+      "github": "foxfoot1",
+      "repo": "final"
+    },
+    "erwin": {
+      "github": "erwincaluya",
+      "repo": "finalproject"
+    },
+    "jordan": {
+      "github": "jorjorb3",
+      "repo": "mas"
+    },
+    "kevin": {
+      "github": "kbreen55",
+      "repo": "final"
+    },
+    "lorenzo": {
+      "github": "Dannyilmango",
+      "repo": "youropinion"
+    },
+    "marina": {
+      "github": "ferrazmarina",
+      "repo": "final"
+    },
+    "rebecca": {
+      "github": "rafriedman91",
+      "repo": "final"
+    },
+    "sofia": {
+      "github": "sofiagahn",
+      "repo": "girlpower"
+    },
+    "tish": {
+      "github": "natashacarless",
+      "repo": "cfcfinal"
+    }
+  }
 }

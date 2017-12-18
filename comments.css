@@ -47,3 +47,7 @@
 .comment-delete:after {
   content: "\2717";
 }
+
+.comment-form-hidden {
+  display: none;
+}

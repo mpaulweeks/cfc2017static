@@ -44,8 +44,8 @@ CFC.Comments.GenerateHtml = function (comments){
   `;
 }
 
-CFC.Comments.GetAndDisplay = function (key){
-  CFC.Comments.FilterAndDisplay(key, "comments-view", function (comments){
+CFC.Comments.GetAndDisplay = function (key, viewId){
+  CFC.Comments.FilterAndDisplay(key, viewId, function (comments){
     return comments;
   });
 }
@@ -58,15 +58,17 @@ CFC.Comments.FilterAndDisplay = function (key, selectorId, filterFunc){
   });
 }
 
-CFC.Comments.Setup = function (key){
+CFC.Comments.Setup = function (key, viewId, formId){
   if(!!window.performance && window.performance.navigation.type === 2)
   {
     // got here via back button, force reload
     window.location.reload();
   } else {
-    var formElm = document.getElementById("comments-form");
+    viewId = viewId || "comments-view";
+    formId = formId || "comments-form";
+    var formElm = document.getElementById(formId);
     formElm.setAttribute("method", "post");
     formElm.setAttribute("action", `http://postboard.mpaulweeks.com/comments/cfc/${key}`);
-    CFC.Comments.GetAndDisplay(key);
+    CFC.Comments.GetAndDisplay(key, viewId);
   }
 }
