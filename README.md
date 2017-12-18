@@ -1,2 +1,3 @@
-# cfc2017static
-Files for static.mpaulweeks.com/cfc2017
+Static files to be shared / used by students.
+
+Everything in this folder is hosted at http://static.mpaulweeks.com/cfc2017/

@@ -1,0 +1,4 @@
+{
+  "students": ["christo", "erwin", "jordan", "kevin", "lorenzo", "marina", "rebecca", "sofia", "tish"],
+  "projects": ["biography", "blog", "portfolio", "canvas", "clicker", "interactive", "jukebox", "final"]
+}
